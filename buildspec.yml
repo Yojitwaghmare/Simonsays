@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Static website - no dependencies needed"
+  build:
+    commands:
+      - echo "Static site - no build step"
+
+artifacts:
+  files:
+    - '**/*'
